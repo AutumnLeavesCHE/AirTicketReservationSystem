@@ -1,0 +1,11 @@
+###设置mysql的连接和MongoDB的连接
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:30062/newexam?useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: 12345
+    driver-class-name: com.mysql.jdbc.Driver
+  data:
+    mongodb:
+      host: 127.0.0.1:27017

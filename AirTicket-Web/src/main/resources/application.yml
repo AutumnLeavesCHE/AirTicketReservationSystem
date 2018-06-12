@@ -1,0 +1,19 @@
+###服务器的配置
+server:
+  port: 1314
+  session:
+    timeout: 1800
+###spring的配置
+###mybatis的设置
+mybatis:
+  type-aliases-package: che.pojo
+  mapper-locations: mybatis/**/*.Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  ##集成的前端的模板
+  thymeleaf:
+    mode: HTML5
+  ##开发的环境  切换开发环境时，配置文件的前缀时application
+  profiles:
+    active: dev

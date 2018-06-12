@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AirTicket-Interface" />
+        <module name="AirTicket-Model" />
+        <module name="AirTicket-Repository" />
+        <module name="AirTicket-Service" />
+        <module name="AirTicket-Web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AirTicket-Interface" target="1.7" />
+      <module name="AirTicket-Model" target="1.7" />
+      <module name="AirTicket-Repository" target="1.7" />
+      <module name="AirTicket-Service" target="1.7" />
+      <module name="AirTicket-Web" target="1.7" />
+      <module name="AirTicketReservationSystem" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
